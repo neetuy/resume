@@ -5,7 +5,6 @@ import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui
 import FlatButton from 'material-ui/FlatButton';
 
 
-
  const MyNavLinks = () => (
   <ToolbarGroup>
     <FlatButton label="Home" containerElement={<Link to="/"/>}/>
@@ -18,6 +17,8 @@ const Base = ({ children }) => (
  <AppBar
           title="React-App"  
           iconElementRight={<MyNavLinks />}
+          showMenuIconButton={false}
+          
         />
 
         {children}

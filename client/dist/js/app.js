@@ -35627,7 +35627,9 @@
 	    null,
 	    _react2.default.createElement(_AppBar2.default, {
 	      title: 'React-App',
-	      iconElementRight: _react2.default.createElement(MyNavLinks, null)
+	      iconElementRight: _react2.default.createElement(MyNavLinks, null),
+	      showMenuIconButton: false
+
 	    }),
 	    children
 	  );
@@ -42893,7 +42895,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+					value: true
 	});
 
 	var _react = __webpack_require__(1);
@@ -42908,338 +42910,415 @@
 
 	var _colors = __webpack_require__(247);
 
+	var _Paper = __webpack_require__(443);
+
+	var _Paper2 = _interopRequireDefault(_Paper);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 	var styles = {
 
-	  cardWidth: {
-	    width: "100%"
-	  }
+					cardWidth: {
+									width: "100%"
+					},
+					div: {
+									display: 'flex',
+									flexDirection: 'row wrap'
 
+					},
+					paperLeft: {
+									flex: 1,
+									height: '100%',
+
+									boxShadow: 'none !important'
+					},
+					paperRight: {
+									flex: 1,
+									height: '100%',
+
+									boxShadow: 'none !important'
+					}
 	};
 
 	var ResumeForm = function ResumeForm(_ref) {
-	  var secretData = _ref.secretData;
-	  return _react2.default.createElement(
-	    _Card.Card,
-	    { className: 'container', style: styles.cardWidth },
-	    _react2.default.createElement(
-	      _Card.CardMedia,
-	      { className: 'text-center',
-	        overlay: _react2.default.createElement(_Card.CardTitle, { title: 'Resume' })
-	      },
-	      _react2.default.createElement('img', { src: './img/background.jpg', style: { height: '440px' } })
-	    ),
-	    _react2.default.createElement(_Card.CardTitle, { title: 'Neetu' }),
-	    _react2.default.createElement(
-	      _Card.Card,
-	      null,
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Address'
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        {
-	          className: 'padding-text'
-	        },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'padding-text' },
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'E-mail'
-	              ),
-	              ' neetuy1455@gmail.com'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Contact-No'
-	              ),
-	              ' 8010442363'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'carrier summary'
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement('li', null),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Excellent at assessing the resources and identifying the oppurtunities.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Excellent in coordinating with seniors and taking orders.'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'padding': '5px', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Personal Qualities'
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Strong motivational skills'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Good Conceptual, Analytical and Logical skills.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Ability to give the best result in pressure situations'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Hard working'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Ability to work individual as well as in team.'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Employers'
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Working as Trainee in Bridge Connectivity Solution in  present.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Worked as Teacher  in Murari Lal Public in 20016'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Educational Qualification '
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Bachelors of Tachnology  from Satya College Of Engineering and Technology with 70%.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              '12th From Vindya Mandir School Faridabad with 72%.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              '10th From Tarun Niketan Public School School Faridabad with 78%.'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Employers'
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Working as Trainee in Bridge Connectivity Solution in  present.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Worked as Teacher  in Murari Lal Public in 20016'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Technical Knowledge '
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Good in MS Office (MS Word, MS Excel, MS PowerPoint).'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Proficient in HTML, CSS, Bootstrap and React.'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Knowledge of database mysql.'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(_Card.CardHeader, {
-	        titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-	        titleColor: _colors.lightBlue900,
-	        title: 'Personal Details '
-	      }),
-	      _react2.default.createElement(
-	        _Card.CardText,
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Father\'s Name :- '
-	              ),
-	              ' Mr. Kaptan Singh Yadav'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Mother\'s Name :- '
-	              ),
-	              ' Mrs. Pushpa Devi'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Date Of Birth :-'
-	              ),
-	              ' 20-December-1993'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Language Known :-'
-	              ),
-	              ' Hindi , English'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Hobbies :- '
-	              ),
-	              ' listening music , Dancing , Travelling'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'b',
-	                null,
-	                'Address :- '
-	              ),
-	              ' Jagram Sarpanch Colony , Palla no. 1 Faridabad.'
-	            )
-	          )
-	        )
-	      )
-	    )
-	  );
+					var secretData = _ref.secretData;
+					return _react2.default.createElement(
+									_Card.Card,
+									{ className: 'container', style: styles.cardWidth },
+									_react2.default.createElement(
+													_Card.CardMedia,
+													{ className: 'text-center',
+																	overlay: _react2.default.createElement(_Card.CardTitle, { title: 'Resume', titleStyle: _defineProperty({ 'fontSize': '30px', 'fontWeight': 'bold' }, 'fontWeight', '900'),
+																					titleColor: _colors.lightBlue900 })
+													},
+													_react2.default.createElement('img', { src: './img/background.jpg', style: { height: '100px' } })
+									),
+									_react2.default.createElement(_Card.CardTitle, { title: 'Neetu' }),
+									_react2.default.createElement(
+													_Card.Card,
+													null,
+													_react2.default.createElement(
+																	'div',
+																	{ style: styles.div },
+																	_react2.default.createElement(
+																					_Paper2.default,
+																					{ style: styles.paperLeft },
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Address'
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													{ className: 'padding-text' },
+																													_react2.default.createElement(
+																																	'ul',
+																																	{ className: 'padding-ui' },
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'E-mail'
+																																					),
+																																					' neetuy1455@gmail.com'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Contact-No'
+																																					),
+																																					' 8010442363'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Objective'
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													{ className: 'padding-text' },
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Looking for the job opportunities to work as a software developer for a leading company where in my knowledge & expertise is used.'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'carrier summary'
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Experience in designing, developing, implementing  computer-based software.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Good  at assessing the resources and identifying the oppurtunities.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Excellent in coordinating with seniors.'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'padding': '5px', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Personal Qualities'
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Strong motivational skills'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Good Conceptual, Analytical and Logical skills.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Ability to give the best result in pressure situations'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Hard working'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Ability to work individual as well as in team.'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Employers'
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Working as Trainee in Bridge Connectivity Solution in  present.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Worked as Teacher  in Murari Lal Public in 20016'
+																																	)
+																													)
+																									)
+																					)
+																	),
+																	_react2.default.createElement(
+																					_Paper2.default,
+																					{ style: styles.paperLeft },
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Educational Qualification '
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Bachelors of Tachnology  from Satya College Of Engineering and Technology with 70%.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'12th From Vindya Mandir School Faridabad with 72%.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'10th From Tarun Niketan Public School School Faridabad with 78%.'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Employers'
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Working as Trainee in Bridge Connectivity Solution in  present.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Worked as Teacher  in Murari Lal Public in 20016'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Technical Knowledge '
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Good in MS Office (MS Word, MS Excel, MS PowerPoint).'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Proficient in HTML, CSS, Bootstrap and React.'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					'Knowledge of database mysql.'
+																																	)
+																													)
+																									)
+																					),
+																					_react2.default.createElement(_Card.CardHeader, {
+																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
+																									titleColor: _colors.lightBlue900,
+																									title: 'Personal Details '
+																					}),
+																					_react2.default.createElement(
+																									_Card.CardText,
+																									{
+																													className: 'padding-text'
+																									},
+																									_react2.default.createElement(
+																													'div',
+																													null,
+																													_react2.default.createElement(
+																																	'ul',
+																																	null,
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Father\'s Name :- '
+																																					),
+																																					' Mr. Kaptan Singh Yadav'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Mother\'s Name :- '
+																																					),
+																																					' Mrs. Pushpa Devi'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Date Of Birth :-'
+																																					),
+																																					' 20-December-1993'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Language Known :-'
+																																					),
+																																					' Hindi , English'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Hobbies :- '
+																																					),
+																																					' listening music , Dancing , Travelling'
+																																	),
+																																	_react2.default.createElement(
+																																					'li',
+																																					null,
+																																					_react2.default.createElement(
+																																									'b',
+																																									null,
+																																									'Address :- '
+																																					),
+																																					' Jagram Sarpanch Colony , Palla no. 1 Faridabad.'
+																																	)
+																													)
+																									)
+																					)
+																	)
+													)
+									)
+					);
 	};
 
 	// ResumeForm.propTypes = {

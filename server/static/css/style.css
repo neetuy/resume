@@ -72,7 +72,15 @@ a:hover {
   float: left;
 }
 
+.padding-text{
+  padding:2px !important;
+}
 ul>li{
   padding:5px !important;
+  margin:0px; 
   font-size: 18px;
+}
+
+ul{
+  margin:auto !important;
 }
