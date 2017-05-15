@@ -8,7 +8,6 @@ const routes = {
   // base component (wrapper for the whole application).
   component: Base,
   childRoutes: [
-
     {
       path: '/',
       component: HomePage
@@ -17,7 +16,6 @@ const routes = {
       path: '/resume_page',
       component: ResumePage
     },
-    
   ]
 };
 
