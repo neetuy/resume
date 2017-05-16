@@ -105,7 +105,7 @@ const ResumeForm = ({ secretData }) => (
 		      </div>
       		</CardText>
       		<CardHeader
-		     	titleStyle={{'fontSize':'20px', 'fontWeight':'bold', ','backgroundColor':lightBlue50}}
+		     	titleStyle={{'fontSize':'20px', 'fontWeight':'bold','backgroundColor':lightBlue50}}
 		      	titleColor={lightBlue900}
 		      	title="Personal Qualities"
 		    />
