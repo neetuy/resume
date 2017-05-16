@@ -259,7 +259,7 @@ const ResumeForm = ({ secretData }) => (
   		<div>
   	 			<footer className="footer text-center">
         		<p>Neetu Yadav, B.Tech</p>
-				<p>Jagram Sarpanch Colony Palla No. - 1, Faridabad| 8010442363 | neetuy1455@gmail.com </p>
+				<p>Jagram Sarpanch Colony Palla No. - 1, Faridabad | 8010442363 | neetuy1455@gmail.com </p>
       			</footer>
   			</div>
   	</Card>

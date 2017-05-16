@@ -43311,7 +43311,7 @@
 																	_react2.default.createElement(
 																					'p',
 																					null,
-																					'Jagram Sarpanch Colony Palla No. - 1, Faridabad| 8010442363 | neetuy1455@gmail.com '
+																					'Jagram Sarpanch Colony Palla No. - 1, Faridabad | 8010442363 | neetuy1455@gmail.com '
 																	)
 													)
 									)
