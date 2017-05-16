@@ -43084,35 +43084,6 @@
 																																	)
 																													)
 																									)
-																					),
-																					_react2.default.createElement(_Card.CardHeader, {
-																									titleStyle: { 'fontSize': '20px', 'fontWeight': 'bold', 'backgroundColor': _colors.lightBlue50 },
-																									titleColor: _colors.lightBlue900,
-																									title: 'Employers'
-																					}),
-																					_react2.default.createElement(
-																									_Card.CardText,
-																									{
-																													className: 'padding-text'
-																									},
-																									_react2.default.createElement(
-																													'div',
-																													null,
-																													_react2.default.createElement(
-																																	'ul',
-																																	null,
-																																	_react2.default.createElement(
-																																					'li',
-																																					null,
-																																					'Working as Trainee in Bridge Connectivity Solution in  present.'
-																																	),
-																																	_react2.default.createElement(
-																																					'li',
-																																					null,
-																																					'Worked as Teacher  in Murari Lal Public in 20016'
-																																	)
-																													)
-																									)
 																					)
 																	),
 																	_react2.default.createElement(

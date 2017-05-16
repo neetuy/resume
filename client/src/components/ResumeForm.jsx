@@ -133,25 +133,7 @@ const ResumeForm = ({ secretData }) => (
 		      </div>
       		</CardText>
       		
-	      	<CardHeader
-	      	titleStyle={{'fontSize':'20px', 'fontWeight':'bold','backgroundColor':lightBlue50}}
-	      	titleColor={lightBlue900}
-	      	title="Employers"
-	      	/>
-	      	<CardText
-		    className="padding-text"
-		    >
-			      <div>
-			      	<ul>
-			      	<li>
-			      	Working as Trainee in Bridge Connectivity Solution in  present.
-			      	</li>
-			      	<li>
-			      	Worked as Teacher  in Murari Lal Public in 20016
-			      	</li>
-			      	</ul>
-			      </div>
-      		</CardText>
+	      	
       		</Paper>
       		<Paper style={styles.paperLeft}>
       		<CardHeader
