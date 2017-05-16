@@ -35559,11 +35559,11 @@
 
 	var _Base2 = _interopRequireDefault(_Base);
 
-	var _HomePage = __webpack_require__(474);
+	var _HomePage = __webpack_require__(453);
 
 	var _HomePage2 = _interopRequireDefault(_HomePage);
 
-	var _ResumePage = __webpack_require__(487);
+	var _ResumePage = __webpack_require__(466);
 
 	var _ResumePage2 = _interopRequireDefault(_ResumePage);
 
@@ -35603,9 +35603,9 @@
 
 	var _AppBar2 = _interopRequireDefault(_AppBar);
 
-	var _Toolbar = __webpack_require__(466);
+	var _Toolbar = __webpack_require__(445);
 
-	var _FlatButton = __webpack_require__(471);
+	var _FlatButton = __webpack_require__(450);
 
 	var _FlatButton2 = _interopRequireDefault(_FlatButton);
 
@@ -40232,28 +40232,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 445 */,
-/* 446 */,
-/* 447 */,
-/* 448 */,
-/* 449 */,
-/* 450 */,
-/* 451 */,
-/* 452 */,
-/* 453 */,
-/* 454 */,
-/* 455 */,
-/* 456 */,
-/* 457 */,
-/* 458 */,
-/* 459 */,
-/* 460 */,
-/* 461 */,
-/* 462 */,
-/* 463 */,
-/* 464 */,
-/* 465 */,
-/* 466 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40263,19 +40242,19 @@
 	});
 	exports.default = exports.ToolbarTitle = exports.ToolbarSeparator = exports.ToolbarGroup = exports.Toolbar = undefined;
 
-	var _Toolbar2 = __webpack_require__(467);
+	var _Toolbar2 = __webpack_require__(446);
 
 	var _Toolbar3 = _interopRequireDefault(_Toolbar2);
 
-	var _ToolbarGroup2 = __webpack_require__(468);
+	var _ToolbarGroup2 = __webpack_require__(447);
 
 	var _ToolbarGroup3 = _interopRequireDefault(_ToolbarGroup2);
 
-	var _ToolbarSeparator2 = __webpack_require__(469);
+	var _ToolbarSeparator2 = __webpack_require__(448);
 
 	var _ToolbarSeparator3 = _interopRequireDefault(_ToolbarSeparator2);
 
-	var _ToolbarTitle2 = __webpack_require__(470);
+	var _ToolbarTitle2 = __webpack_require__(449);
 
 	var _ToolbarTitle3 = _interopRequireDefault(_ToolbarTitle2);
 
@@ -40288,7 +40267,7 @@
 	exports.default = _Toolbar3.default;
 
 /***/ }),
-/* 467 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -40414,7 +40393,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 468 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -40628,7 +40607,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 469 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -40735,7 +40714,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 470 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -40854,7 +40833,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 471 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40864,7 +40843,7 @@
 	});
 	exports.default = undefined;
 
-	var _FlatButton = __webpack_require__(472);
+	var _FlatButton = __webpack_require__(451);
 
 	var _FlatButton2 = _interopRequireDefault(_FlatButton);
 
@@ -40873,7 +40852,7 @@
 	exports.default = _FlatButton2.default;
 
 /***/ }),
-/* 472 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -40930,7 +40909,7 @@
 
 	var _EnhancedButton2 = _interopRequireDefault(_EnhancedButton);
 
-	var _FlatButtonLabel = __webpack_require__(473);
+	var _FlatButtonLabel = __webpack_require__(452);
 
 	var _FlatButtonLabel2 = _interopRequireDefault(_FlatButtonLabel);
 
@@ -41203,7 +41182,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 473 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -41295,7 +41274,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 474 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -41308,7 +41287,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Card = __webpack_require__(475);
+	var _Card = __webpack_require__(454);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41329,7 +41308,7 @@
 	exports.default = HomePage;
 
 /***/ }),
-/* 475 */
+/* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -41339,31 +41318,31 @@
 	});
 	exports.default = exports.CardExpandable = exports.CardActions = exports.CardText = exports.CardMedia = exports.CardTitle = exports.CardHeader = exports.Card = undefined;
 
-	var _Card2 = __webpack_require__(476);
+	var _Card2 = __webpack_require__(455);
 
 	var _Card3 = _interopRequireDefault(_Card2);
 
-	var _CardHeader2 = __webpack_require__(480);
+	var _CardHeader2 = __webpack_require__(459);
 
 	var _CardHeader3 = _interopRequireDefault(_CardHeader2);
 
-	var _CardTitle2 = __webpack_require__(483);
+	var _CardTitle2 = __webpack_require__(462);
 
 	var _CardTitle3 = _interopRequireDefault(_CardTitle2);
 
-	var _CardMedia2 = __webpack_require__(484);
+	var _CardMedia2 = __webpack_require__(463);
 
 	var _CardMedia3 = _interopRequireDefault(_CardMedia2);
 
-	var _CardText2 = __webpack_require__(485);
+	var _CardText2 = __webpack_require__(464);
 
 	var _CardText3 = _interopRequireDefault(_CardText2);
 
-	var _CardActions2 = __webpack_require__(486);
+	var _CardActions2 = __webpack_require__(465);
 
 	var _CardActions3 = _interopRequireDefault(_CardActions2);
 
-	var _CardExpandable2 = __webpack_require__(477);
+	var _CardExpandable2 = __webpack_require__(456);
 
 	var _CardExpandable3 = _interopRequireDefault(_CardExpandable2);
 
@@ -41379,7 +41358,7 @@
 	exports.default = _Card3.default;
 
 /***/ }),
-/* 476 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -41428,7 +41407,7 @@
 
 	var _Paper2 = _interopRequireDefault(_Paper);
 
-	var _CardExpandable = __webpack_require__(477);
+	var _CardExpandable = __webpack_require__(456);
 
 	var _CardExpandable2 = _interopRequireDefault(_CardExpandable);
 
@@ -41599,7 +41578,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 477 */
+/* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -41636,11 +41615,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _keyboardArrowUp = __webpack_require__(478);
+	var _keyboardArrowUp = __webpack_require__(457);
 
 	var _keyboardArrowUp2 = _interopRequireDefault(_keyboardArrowUp);
 
-	var _keyboardArrowDown = __webpack_require__(479);
+	var _keyboardArrowDown = __webpack_require__(458);
 
 	var _keyboardArrowDown2 = _interopRequireDefault(_keyboardArrowDown);
 
@@ -41706,7 +41685,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 478 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -41743,7 +41722,7 @@
 	exports.default = HardwareKeyboardArrowUp;
 
 /***/ }),
-/* 479 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -41780,7 +41759,7 @@
 	exports.default = HardwareKeyboardArrowDown;
 
 /***/ }),
-/* 480 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -41825,7 +41804,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Avatar = __webpack_require__(481);
+	var _Avatar = __webpack_require__(460);
 
 	var _Avatar2 = _interopRequireDefault(_Avatar);
 
@@ -42007,7 +41986,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 481 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42017,7 +41996,7 @@
 	});
 	exports.default = undefined;
 
-	var _Avatar = __webpack_require__(482);
+	var _Avatar = __webpack_require__(461);
 
 	var _Avatar2 = _interopRequireDefault(_Avatar);
 
@@ -42026,7 +42005,7 @@
 	exports.default = _Avatar2.default;
 
 /***/ }),
-/* 482 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -42198,7 +42177,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 483 */
+/* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -42373,7 +42352,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 484 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -42584,7 +42563,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 485 */
+/* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -42707,7 +42686,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 486 */
+/* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -42834,7 +42813,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 487 */
+/* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42849,7 +42828,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _ResumeForm = __webpack_require__(488);
+	var _ResumeForm = __webpack_require__(467);
 
 	var _ResumeForm2 = _interopRequireDefault(_ResumeForm);
 
@@ -42889,7 +42868,7 @@
 	exports.default = ResumePage;
 
 /***/ }),
-/* 488 */
+/* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42902,9 +42881,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Card = __webpack_require__(475);
+	var _Card = __webpack_require__(454);
 
-	var _FlatButton = __webpack_require__(471);
+	var _FlatButton = __webpack_require__(450);
 
 	var _FlatButton2 = _interopRequireDefault(_FlatButton);
 
@@ -43315,6 +43294,24 @@
 																													)
 																									)
 																					)
+																	)
+													)
+									),
+									_react2.default.createElement(
+													'div',
+													null,
+													_react2.default.createElement(
+																	'footer',
+																	{ className: 'footer text-center' },
+																	_react2.default.createElement(
+																					'p',
+																					null,
+																					'Neetu Yadav, B.Tech'
+																	),
+																	_react2.default.createElement(
+																					'p',
+																					null,
+																					'Jagram Sarpanch Colony Palla No. - 1, Faridabad| 8010442363 | neetuy1455@gmail.com '
 																	)
 													)
 									)
